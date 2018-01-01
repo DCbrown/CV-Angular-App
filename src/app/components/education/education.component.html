@@ -1,0 +1,13 @@
+<div class="row" id="margin-top">
+  <div class="col-md-4">
+      <img id="profilePic" src="https://d3iw72m71ie81c.cloudfront.net/male-5.jpg">
+  </div>
+  <div *ngFor="let user of users" class="animated slideInRight col-md-8">
+    <div class="text-center">
+      <h1><u><b>EDUCATION</b></u></h1>
+      <h2><b>{{ user.schoolName }}</b></h2>
+      <h3> {{ user.schoolInfo }} {{ user.gradYear }}</h3>
+      <h3>GPA: {{ user.gpa }}</h3>
+    </div>
+  </div>
+</div>

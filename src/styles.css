@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+#profilePic{
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+#margin-top{
+  margin-top: 100px;
+}
+
+#margin-top-sm{
+  margin-top: 50px;
+}
+
+.fa{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+li{
+  list-style: none;
+}
+
+#margin-left{
+  margin-left: 195px;
+}
+
+body{
+  background-image: url(img/code.png);
+  color:#fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+  color:#fff;
+}
+
+a:hover{
+  color:#123;
+}
+
+.label{
+  line-height: 60px;
+  border: 1px solid #fff;
+}

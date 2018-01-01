@@ -1,0 +1,47 @@
+{
+    "user":[
+        {
+            "id":1,
+            "name":"John Doe",
+            "title": "Web Developer",
+            "focus": "that undertands the professinal development process and becomes actively involed by setting challanging goals and meeting those goals through continous learning.",
+            "schoolName":"Sample University of Example State",
+            "gradYear":2017,
+            "gpa":3.5,
+            "schoolInfo":"Bachelor of Science in Computer Science Degree",
+            "expYears1":"Mar 2016 - Jun 2017",
+            "expYears2":"Jun 2017 - Present",
+            "job1":"Freelance Web Developer",
+            "job2":"Juinor Web Developer",
+            "title1":"Self Employed",
+            "title2":"ABC Agency",
+            "resp1":"Website Development",
+            "resp2":"Web and Moblie Application",
+            "resp3":"Website Development & Design",
+            "resp4":"Web Application Development",
+            "sub1":"Custom Pages",
+            "sub2":"Custom WordPress Themes",
+            "sub3":"Custom Joomla Themes",
+            "sub4":"Custom Web Applications",
+            "sub5":"Facebook Applications",
+            "sub6":"Cordova / Phonegap Application",
+            "sub7":"API Development",
+            "skill1":"HTML5",
+            "skill2":"CSS3",
+            "skill3":"JavaScript (ES6)",
+            "skill4":"Angular",
+            "skill5":"NodeJS",
+            "skill6":"PHP7",
+            "skill7":"SQL",
+            "skill8":"WordPress",
+            "skill9":"Joomla",
+            "skill10":"Phonegap / Codorva",
+            "skill11":"Graphic Design",
+            "skill12":"Bootstrap",
+            "skill13":"UX/UI",
+            "skill14":"Amazon Cloud",
+            "skill15":"Command Line / Terminal"
+        }
+            
+    ]
+}

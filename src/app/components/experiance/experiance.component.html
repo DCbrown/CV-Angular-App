@@ -1,0 +1,49 @@
+<div class="row" id="margin-top">
+  <div class="col-md-4">
+      <img id="profilePic" src="https://d3iw72m71ie81c.cloudfront.net/male-5.jpg">
+  </div>
+      <div *ngFor="let user of users" class="animated slideInRight">
+      <h1><u><b style="margin-left:280px!important">EXPERIANCE</b></u></h1><br>
+      <div class="col-md-1 col-md-offeset-1" id="margin-left">
+        <p>{{  user.expYears1 }}</p>
+      </div>
+      <div class="col-md-4">
+        <p><b>{{ user.job1 }}</b>, {{ user.title1 }}</p>
+        <ul>
+          <li><u>{{ user.resp1 }}</u></li>
+          <ul>
+            <li>{{ user.sub1 }}</li>
+            <li>{{ user.sub2 }}</li>
+            <li>{{ user.sub3 }}</li>
+          </ul>
+        </ul>
+        <ul>
+            <li><u>{{ user.resp2 }}</u></li>
+            <ul>
+              <li>{{ user.sub4 }}</li>
+              <li>{{ user.sub5 }}</li>
+              <li>{{ user.sub6 }}</li>
+            </ul>
+          </ul>
+      </div>
+      <div class="col-md-1 col-md-offeset-1" id="margin-left">
+          <p>{{  user.expYears2 }}</p>
+        </div>
+        <div class="col-md-4">
+          <p><b>{{ user.job2 }}</b>, {{ user.title2 }}</p>
+          <ul>
+            <li><u>{{ user.resp3 }}</u></li>
+            <ul>
+              <li>{{ user.sub1 }}</li>
+            </ul>
+          </ul>
+          <ul>
+              <li><u>{{ user.resp4 }}</u></li>
+              <ul>
+                <li>{{ user.sub4 }}</li>
+                <li>{{ user.sub7 }}</li>
+              </ul>
+            </ul>
+        </div>
+      </div>
+</div>

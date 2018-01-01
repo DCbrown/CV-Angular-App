@@ -1,0 +1,18 @@
+<div class="row" id="margin-top">
+  <div class="animated slideInLeft col-md-3">
+      <img id="profilePic" src="assets/johndoe.jpg">
+  </div>
+  <div *ngFor="let user of users" class="animated slideInRight col-md-8 col-md-offset-1">
+    <h1 class="text-center"><u>Meet {{ user.name }}</u></h1>
+    <h2 class="text-center">Hi, My name is {{ user.name }} I am a <b>{{ user.title}}</b> {{ user.focus}}</h2>
+    <div class="text-center">
+      <button class="btn btn-success btn-lg" routerLink="/contact">Contact Me</button><br><br>
+      <a href="#"><i class="fa-5x fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa-5x fa fa-twitter-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa-5x fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa-5x fa fa-github-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa-5x fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+
