@@ -1,7 +1,7 @@
 # CV Angular App
 
 
-# Developed and design a CV Web application that displays a fictional user's experiance and background working in the Web Development Industry using the skills of HTML, CSS, JavaScript, Typscript, Angular, JSON, Bootstrap, Font-Awesome and Animate.css
+# Developed and design a CV Web application that displays a fictional user's experience and background working in the Web Development Industry using the skills of HTML, CSS, JavaScript, Typscript, Angular, JSON, Angular CLI, NodeJS, Bootstrap, Font-Awesome and Animate.css
 
 ![resume1](https://user-images.githubusercontent.com/6256720/35197629-fdf72476-feaf-11e7-8a7b-85f521b7f4fd.png)
 ![resume2](https://user-images.githubusercontent.com/6256720/35197637-24ef5a76-feb0-11e7-883b-1cf4f3832912.png)
